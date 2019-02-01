@@ -1,0 +1,24 @@
+{
+  "name": "quotewizard-api",
+  "version": "0.0.0",
+  "description": "QuoteWizardApi",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --watchAll"
+  },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "author": "",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs-readfile-promise": "^3.0.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "supertest": "^3.3.0",
+    "jest": "^23.6.0"
+  },
+  "main": "index.js",
+  "license": "ISC"
+}
